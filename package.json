@@ -1,0 +1,16 @@
+{
+  "name": "framework-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kunxin-chor/framework-new.git",
+  "author": "kunxin-chor <chorkunxin@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mikro-orm/core": "^6.0.5",
+    "@mikro-orm/mysql": "^6.0.5",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1",
+    "wax-on": "^1.2.2"
+  }
+}
