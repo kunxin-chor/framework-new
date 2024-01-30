@@ -5,10 +5,18 @@
   "repository": "https://github.com/kunxin-chor/framework-new.git",
   "author": "kunxin-chor <chorkunxin@yahoo.com>",
   "license": "MIT",
+  "scripts": {
+    "migrate": "node node_modules/db-migrate/bin/db-migrate"
+  },
   "dependencies": {
+    "bookshelf": "^1.2.0",
+    "db-migrate": "^0.11.14",
+    "db-migrate-mysql": "^2.3.2",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
+    "knex": "^3.1.0",
     "mysql": "^2.18.1",
+    "mysql2": "^3.9.0",
     "wax-on": "^1.2.2"
   }
 }

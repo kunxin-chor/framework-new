@@ -33,15 +33,6 @@ async function main(){
 }
 main();
 
-// (async function(){
-//     console.log("app")
-//     console.log("app.get")
-//     app.get('/', function(req,res){
-//         console.log(res);
-//         res.send("Hello World");
-//     })
-// })();
-
 app.listen(3000,function(req,res){
     console.log("Server started");
 })
